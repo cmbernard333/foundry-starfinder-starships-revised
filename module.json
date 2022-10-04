@@ -2,9 +2,14 @@
     "name": "starfinder-starships-revised",
     "title": "Starfinder Starships Revised",
     "description": "A collection of macros for implementing the Starships Revised system by Jason Hamilton",
-    "version": "0.0.1",
-    "author": [
-        "JTJenkins"
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "JTJenkins"
+        },
+        {
+            "name": "cmbernard333@gmail.com"
+        }
     ],
     "scripts": [
         "./starfinder-starships-revised.js"
@@ -18,11 +23,13 @@
             "path": "lang/en.json"
         }
     ],
-    "url": "https://github.com/jtjenkins/foundry-starfinder-starships-revised",
-    "manifest": "https://github.com/jtjenkins/foundry-starfinder-starships-revised/releases/latest/download/module.json",
-    "download": "https://github.com/jtjenkins/foundry-starfinder-starships-revised/releases/download/0.0.1/module.zip",
-    "minimumCoreVersion": "0.7.6",
-    "compatibleCoreVersion": "0.8.0",
-    "bugs": "https://github.com/jtjenkins/foundry-starfinder-starships-revised/issues",
+    "url": "https://github.com/cmbernard333/foundry-starfinder-starships-revised",
+    "manifest": "https://github.com/cmbernard333/foundry-starfinder-starships-revised/releases/latest/download/module.json",
+    "download": "https://github.com/cmbernard333/foundry-starfinder-starships-revised/releases/download/0.0.1/module.zip",
+    "compatibility": {
+        "minimumCoreVersion": "10",
+        "compatibleCoreVersion": "10.286"
+     },
+    "bugs": "https://github.com/cmbernard333/foundry-starfinder-starships-revised/issues",
     "allowBugReporter": true
 }
